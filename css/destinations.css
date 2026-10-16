@@ -22,9 +22,7 @@
   background: url(../img/Osaka-mobile.jpg);
   background-size: cover;
 }
-.destinations .item header h4 {
-  margin: 24px 0;
-}
+
 .destinations .item p {
   margin-bottom: 24px;
 }
