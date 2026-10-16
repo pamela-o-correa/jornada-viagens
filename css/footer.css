@@ -11,11 +11,9 @@
 .main-footer .footer-content {
   text-align: center;
 }
-
 .main-footer .footer-content img {
   margin-bottom: 16px;
 }
-
 .main-footer p {
   color: var(--text-secondary-color);
   font-size: 16px;
@@ -32,12 +30,10 @@
   .main-footer {
     padding: 32px 60px;
   }
-
   .main-footer p {
     font-size: 20px;
     line-height: 32px;
   }
-
   .main-footer .footer-social {
     margin-top: 32px;
   }
@@ -49,15 +45,12 @@
     padding: 52px 120px;
     justify-content: space-between;
   }
-
   .main-footer .footer-content {
     text-align: left;
   }
-
   .main-footer .footer-social {
     width: 165px;
   }
-
   .main-footer .footer-social p {
     font-size: 16px;
   }

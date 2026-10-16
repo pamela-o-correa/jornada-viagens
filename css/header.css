@@ -21,8 +21,7 @@
 .img-desktop {
   display: none;
 }
-
-.navegation-menu {
+.navigation-menu {
   margin-top: 24px;
 }
 
@@ -46,32 +45,35 @@ nav {
 .list-links li {
   margin: 16px 0;
 }
-
 .list-links li a {
   color: var(--text-secondary-color);
   text-decoration: none;
   font-weight: var(--menu-text-weight);
   font-size: 24px;
 }
+.list-links li a.active {
+  text-decoration: underline;
+}
 
 @media screen and (min-width: 768px) {
-  .navegation-menu {
+  .navigation-menu {
     margin-top: 0;
     width: 467px;
   }
-  .navegation-menu label {
+  .navigation-menu label {
     display: none;
   }
-  .navegation-menu nav {
+
+  .navigation-menu nav {
     display: block;
   }
-  .navegation-menu ul {
+  .navigation-menu ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0;
   }
-  .navegation-menu li {
+  .navigation-menu li {
     margin: 0;
   }
 }
@@ -90,7 +92,7 @@ nav {
   .img-mobile {
     display: none;
   }
-  .navegation-menu a:hover {
+  .navigation-menu a:hover {
     color: var(--primary-color);
   }
 }
